@@ -1,0 +1,24 @@
+## Below command to config Git to windows
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+## below cmd will copy the file from git to local computer
+git clone url
+
+## below cmd give status of the file
+git status
+
+Whenever we create a file in the git folder the file will be created as untracked file 
+then the file should moved to ready state(stating area) and then only we can commit the file  to local git folder and push to repository
+
+## below cmd helps to move the file from untrack status the ready status(stating area)
+git add filename
+
+##below cmd helps to move the file to ready status(stating area) to local Git folder
+git commit -m "description of the file"  
+## -m indicates the commit message
+
+##below cmd helps to move the file to GitHub
+git push origin main
+#### origin - indicate the URL
+#### main - indicate the location on the file to be saved in repository 
