@@ -29,5 +29,5 @@ create->add->commit->push
 ##Any modification in localhost file to Github
 Any modification->add->commit->push
 
-##Any modification in GitHub file to localhost
+##use below cmd for Any modification in GitHub file to reflect that in localhost
 git pull
