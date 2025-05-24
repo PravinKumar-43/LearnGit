@@ -1,0 +1,58 @@
+##Below cmd to add file to stating phase
+
+git add .    ('.' dot indicates all files) 
+
+##The . (dot) adds all modified and new files in the current directory to the staging area.
+
+## Below cmd will build a bride between localhost host folder and Github
+
+git init
+
+##Creates a new empty Git repository in your current folder.
+##It starts tracking version control locally.
+
+##Below cmd will build the connection between localhost folder and repository
+
+git remote add origin 'repositoryURL'
+
+#Connects your local repository to a remote repository (usually on GitHub).
+#Replace <repositoryURL> with the actual URL of your GitHub repository.
+
+##Whenever a repository is created by default it will create a main Branch
+
+## Below cmd will list the branhes in the repository
+
+git branch -a
+
+## Below cmd modifiy the main branch
+
+git branch -M 'branchname'
+
+##Switch to another branch
+
+git checkout <branchname>
+
+##Switches to the specified branch.
+##If the branch doesn't exist locally, you can create and switch to it with:
+
+git checkout -b <branchname>
+
+##View differences between branches
+git diff <branchname>
+
+##Shows the difference between the current branch and <branchname>.
+##If you want to compare two specific branches (e.g., main and feature-1):
+
+git diff main..feature-1
+
+#Merge branches
+
+git merge <branchname>
+
+##Merges the specified <branchname> into the current branch.
+##Make sure you're on the branch that should receive the changes before running this.
+##Always commit or stash your changes before switching branches.
+##During merges, if there are conflicting changes, Git will mark conflicts and require manual resolution.
+##It’s a good practice to pull the latest changes from remote before merging:
+
+git pull origin <branchname>
