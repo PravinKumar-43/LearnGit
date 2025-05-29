@@ -31,3 +31,9 @@ Any modification->add->commit->push
 
 ##use below cmd for Any modification in GitHub file to reflect that in localhost
 git pull
+
+##below cmd used to revert the commit
+git reset
+
+## Below cmd used to rename branch name (remote)
+git branch -m <oldname> <newname>
