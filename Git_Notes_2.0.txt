@@ -56,3 +56,9 @@ git merge <branchname>
 ##It’s a good practice to pull the latest changes from remote before merging:
 
 git pull origin <branchname>
+
+##below cmd used to revert the commit
+git reset
+
+## Below cmd used to rename branch name (remote)
+git branch -m <oldname> <newname>
